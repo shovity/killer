@@ -1,2 +1,2 @@
 # killer
-a chrome extension
+a chrome extension for killing element by css query selector
