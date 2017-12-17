@@ -7,7 +7,7 @@
      {
       "matches": [ "http://*/*", "https://*/*", "file:///*" ],
       "run_at": "document_start",
-      "js": [ "sendDeadString.js" ]
+      "js": [ "moduleLoader.js" ]
     },
     {
       "matches": [ "http://*/*", "https://*/*", "file:///*" ],
@@ -17,7 +17,7 @@
   ],
 
   "browser_action": {
-    "default_popup": "pop.html"
+    "default_popup": "pop/pop.html"
   },
 
   "permissions": [ "activeTab" ],
